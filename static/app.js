@@ -9,7 +9,7 @@ const App = {
     async createServer() {
       const data = {
         name: this.name,
-        status: 'created'
+        status: 'открыт'
       }
       const res = await fetch('/api/server', {
         method: 'POST',

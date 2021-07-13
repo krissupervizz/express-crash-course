@@ -22,6 +22,10 @@
             <li class="list-group-item" v-for="server in servers" @click="remove(server.id)">
                 {{ server.name }}
                 <strong>{{ server.status }}</strong>
+                <button class="change_status" > Открыто </button>
+                <button class="change_status" > Закрыто </button>
+                <button class="change_status" > Идет урок </button>
+                <button class="change_status" > Удалить </button>
             </li>
         </ul>
     </div>
